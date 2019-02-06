@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Add Data</title>
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div id='cssmenu'>
+		<ul>
+   			<li><a href='index.php'>Home</a></li>
+   			<li class='active'><a href='#'>Travel With Us</a></li>
+   			<li><a href='display.php'>Check Traveller's List</a></li>
+
+   			<li class="information"><a href='#'>|| Register Your Name</a></li>
+		</ul>
+	</div>
+	
+	<div class="container">
+		<form action="add.php" method="post" name="form1">
+			<table>
+				<tr> 
+					<td>Name</td>
+					<td><input type="text" name="name"></td>
+				</tr>
+				<tr> 
+					<td>Age</td>
+					<td><input type="number" name="age"></td>
+				</tr>
+				<tr> 
+					<td>Email</td>
+					<td><input type="email" name="email"></td>
+				</tr>
+						
+			</table>
+		<br>
+			<input type="submit" name="Submit" value="Add" id="submit">
+		</form>
+	</div>
+</body>
+</html>
+
